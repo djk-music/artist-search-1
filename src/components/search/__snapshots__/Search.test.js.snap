@@ -14,6 +14,7 @@ Array [
       <input
         name="artist"
         onChange={[Function]}
+        placeholder="type artist name"
         type="text"
         value=""
       />

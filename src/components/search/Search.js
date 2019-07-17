@@ -60,7 +60,7 @@ class Search extends PureComponent {
         <div className={styles.header}>
           <h1>Search</h1>
           <form onSubmit={this.handleSubmit}>
-            <input type="text" name="artist" value={artist} onChange={this.handleSubmit}></input>
+            <input type="text" name="artist" value={artist} placeholder="type artist name" onChange={this.handleSubmit}></input>
             <button onClick={this.handleClick}>Search</button>
           </form>
         </div>
